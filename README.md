@@ -1,6 +1,4 @@
-# GradePredictor
-GradePredictor is a playful project that uses Simple Linear Regression to predict student grades! By analyzing the Student Performance Dataset, it forecasts final grades (G3) based on second-period scores (G2). With fun visualizations and performance metrics like MSE and RMSE, this project transforms data into insights for smarter learning! 🎓✨
-Here's a fun and creative README for your **GradePredictor** project that adds a playful tone while still providing all the necessary information:
+Here’s the complete and fun README file for your **GradePredictor** project, tailored with your GitHub username:
 
 ```markdown
 # 🎓 GradePredictor: The Future of Grade Forecasting! 🌟
@@ -41,7 +39,7 @@ Ready to dive in? Let’s get started! Here’s how you can set up your very own
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/GradePredictor.git
+   git clone https://github.com/juhiagarwal2003/GradePredictor.git
    cd GradePredictor
    ```
 
@@ -112,8 +110,7 @@ Now, let’s predict some grades and have fun with data! 🚀📈
 ```
 
 ### Customization Notes
-- **Links**: Make sure to replace `your-username` with your actual GitHub username.
-- **Results**: Update the placeholder values for MSE and RMSE with actual metrics from your project.
-- **Image Path**: Ensure that the image path for the regression plot is correct.
-
-This playful and creative README will engage users while still providing all the necessary information about your project!
+- **Image Path**: Ensure the path to your regression plot image is correct in the `Results` section.
+- **Performance Metrics**: Replace the placeholder values for MSE and RMSE with actual results from your project.
+  
+This README is engaging and informative, setting a fun tone while covering all the necessary aspects of your project! If you need any further adjustments or additions, let me know!
