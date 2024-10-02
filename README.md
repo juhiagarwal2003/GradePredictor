@@ -12,8 +12,7 @@ Welcome to **GradePredictor**—where data meets education in a fun and interact
 5. [Implementation Details](#implementation-details)
 6. [Results](#results)
 7. [Contributing](#contributing)
-8. [License](#license)
-9. [Acknowledgements](#acknowledgements)
+8. [Acknowledgements](#acknowledgements)
 
 ## 🏫 Overview
 
@@ -81,7 +80,7 @@ Here’s how we work our magic:
 
 Our project generates stunning visuals to help us see the linear regression line against the original data points!
 
-![Regression Line](https://drive.google.com/file/d/16RMyh_8ZKoX0NHtmhKADu7hp-kyq4B2d/view?usp=sharing)
+![Regression Line](https://github.com/juhiagarwal2003/GradePredictor/blob/main/Regression_plot.png)
 
 - **Mean Squared Error (MSE)**: `3.793981314444265`
 - **Root Mean Squared Error (RMSE)**: `1.9478144969283562`
