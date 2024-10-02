@@ -1,5 +1,3 @@
-Here’s the complete and fun README file for your **GradePredictor** project, tailored with your GitHub username:
-
 ```markdown
 # 🎓 GradePredictor: The Future of Grade Forecasting! 🌟
 
@@ -9,7 +7,7 @@ Welcome to **GradePredictor**—where data meets education in a fun and interact
 
 1. [Overview](#overview)
 2. [Dataset](#dataset)
-3. [Installation](#installation)
+3. [Google Colab Setup](#google-colab-setup)
 4. [Usage](#usage)
 5. [Implementation Details](#implementation-details)
 6. [Results](#results)
@@ -33,37 +31,34 @@ Our data comes from the amazing [Student Performance Dataset](https://archive.ic
 - **G2**: The score students get in the second period (our predictor).
 - **G3**: The final grade that we want to predict (the prize!).
 
-## 🚀 Installation
+## 🚀 Google Colab Setup
 
-Ready to dive in? Let’s get started! Here’s how you can set up your very own GradePredictor:
+Getting started on Google Colab is a breeze! Just follow these steps:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/juhiagarwal2003/GradePredictor.git
-   cd GradePredictor
+1. **Open the Colab Notebook**:
+   - Click on [this link](https://colab.research.google.com/) to create a new notebook or open an existing one.
+
+2. **Clone the Repository**:
+   To work with the code and dataset, run the following code cell:
+   ```python
+   !git clone https://github.com/juhiagarwal2003/GradePredictor.git
    ```
 
-2. **Install the required libraries**:
-   ```bash
-   pip install -r requirements.txt
+3. **Install the Required Libraries**:
+   Install any libraries you may need by running:
+   ```python
+   !pip install -r GradePredictor/requirements.txt
    ```
 
-> Note: `requirements.txt` contains all the magic spells (libraries) like `pandas`, `numpy`, and `matplotlib` you need to make this work!
+> Note: Ensure your dataset is uploaded to the Colab environment, or you can access it directly from the UCI repository using pandas!
 
 ## 🎉 Usage
 
-You have two fun ways to explore GradePredictor:
+Once your environment is set up, you can explore GradePredictor:
 
-### 1. Jupyter Notebook
+### 1. Jupyter Notebook in Google Colab
 
-Open the Jupyter Notebook in the `notebooks/` folder and run the cells like a pro! Watch the magic unfold.
-
-### 2. Python Script
-
-Want to see it in action? Just run the linear regression script directly:
-```bash
-python src/linear_regression.py
-```
+Run the cells in your Colab notebook to see the magic unfold. Follow the code provided in the `linear_regression.py` script to predict grades based on G2.
 
 ## ✨ Implementation Details
 
@@ -86,18 +81,15 @@ Here’s how we work our magic:
 
 Our project generates stunning visuals to help us see the linear regression line against the original data points!
 
-![Regression Line](images/regression_plot.png)
+![Regression Line](https://drive.google.com/file/d/16RMyh_8ZKoX0NHtmhKADu7hp-kyq4B2d/view?usp=drive_link)
 
-- **Mean Squared Error (MSE)**: `0.XXXXX`
-- **Root Mean Squared Error (RMSE)**: `X.XXXXX`
+- **Mean Squared Error (MSE)**: `3.793981314444265`
+- **Root Mean Squared Error (RMSE)**: `1.9478144969283562`
 
 ## 🤝 Contributing
 
 We love contributions! If you want to sprinkle some extra magic on this project, feel free to submit a pull request or open an issue. Let’s make this even better together!
 
-## 📝 License
-
-This project is licensed under the MIT License. Check out the [LICENSE](LICENSE) file for all the details.
 
 ## 🎉 Acknowledgements
 
@@ -108,9 +100,3 @@ This project is licensed under the MIT License. Check out the [LICENSE](LICENSE)
 
 Now, let’s predict some grades and have fun with data! 🚀📈
 ```
-
-### Customization Notes
-- **Image Path**: Ensure the path to your regression plot image is correct in the `Results` section.
-- **Performance Metrics**: Replace the placeholder values for MSE and RMSE with actual results from your project.
-  
-This README is engaging and informative, setting a fun tone while covering all the necessary aspects of your project! If you need any further adjustments or additions, let me know!
