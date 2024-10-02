@@ -81,7 +81,7 @@ Here’s how we work our magic:
 
 Our project generates stunning visuals to help us see the linear regression line against the original data points!
 
-![Regression Line](https://drive.google.com/file/d/16RMyh_8ZKoX0NHtmhKADu7hp-kyq4B2d/view?usp=drive_link)
+![Regression Line](https://drive.google.com/file/d/16RMyh_8ZKoX0NHtmhKADu7hp-kyq4B2d/view?usp=sharing)
 
 - **Mean Squared Error (MSE)**: `3.793981314444265`
 - **Root Mean Squared Error (RMSE)**: `1.9478144969283562`
